@@ -15,7 +15,7 @@ const josefinSans = Josefin_Sans({
 const IfaHome = () => {
   return (
     <Container maxWidth={false}>
-      <div className="grid md:grid-cols-2 lg:mx-15 mx-0 mb-150 md:mb-0 mb-10 mt-20 grid-cols-1 md:gap-5">
+      <div className="grid md:grid-cols-2 lg:mx-15 mx-0 md:mb-150 mb-0 mb-10 mt-20 grid-cols-1 md:gap-5">
         {/* 1st col */}
 
         <motion.div
