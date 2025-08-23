@@ -24,8 +24,10 @@ export default function Home() {
    <AppUsage/>
    <IfaFaq/>
    <IfaConnect/>
-   <MovingTexts text1={'orisa studies'} text2={'verse interpretation'} />
+   <div className="py-10">
+    <MovingTexts text1={'orisa studies'} text2={'verse interpretation'} />
    <MovingTexts text1={'verse interpretation'} text2={'orisa studies'} />
+   </div>
    <Footer/>
    
    </div>

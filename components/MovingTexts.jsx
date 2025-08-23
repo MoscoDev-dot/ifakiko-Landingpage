@@ -7,7 +7,7 @@ const mozilla = Mozilla_Headline({ subsets: ["latin"], weight: "400" });
 
 const MovingTexts = ({text1, text2}) => {
   return (
-    <div className=" mt-8 md:mt-0 overflow-hidden">
+    <div className=" md:mt-0 overflow-hidden">
       <Container maxWidth={false}>
         <div className="flex gap-4 animate-marquee whitespace-nowrap">
           <Image
