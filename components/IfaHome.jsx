@@ -25,9 +25,9 @@ const IfaHome = () => {
       transition={{ duration: 0.5, delay: 0.2, ease: 'easeInOut' }}
         
         className="relative learning-ifa ">
-          <div className="border-[10px] absolute  border-[#74B117] lg:h-[89vh] h-[44vh] lg:w-[80vh] w-[40vh] "></div>
+          <div className="border-[10px] absolute  border-[#74B117] lg:h-[89vh] h-[43vh] lg:w-[80vh] w-[40vh] "></div>
 
-          <div className="border-2 bg-white absolute lg:left-[-30px] left-[-10px] top-2 border-[#74B117] lg:w-[80vh] w-[38vh] lg:p-8 p-3 lg:h-[80vh] h-[42vh] mt-5 ">
+          <div className="border-2 bg-white absolute lg:left-[-30px] left-[-10px] top-2 border-[#74B117] lg:w-[80vh] w-[38vh] lg:p-8 p-3 lg:h-[80vh] h-[38vh] mt-5 ">
             <p className="capitalize lg:text-[50px] md:text-[40px] text-[25px] font-semibold leading-tight">
               Join thousands{" "}
               <span className="italic text-[#74B117]">learning Ifá</span>{" "}
