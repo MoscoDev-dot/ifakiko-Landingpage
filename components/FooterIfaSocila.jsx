@@ -20,8 +20,8 @@ const FooterIfaSocila = () => {
                   <Image
                     src="/facebook-fill.png"
                     alt=" "
-                    width={70}
-                    height={70}
+                    width={100}
+                    height={100}
                     className="h-auto w-auto"
                   />
                 </Link>
@@ -30,8 +30,8 @@ const FooterIfaSocila = () => {
                   <Image
                     src="/instagram-fill.png"
                     alt=" "
-                    width={70}
-                    height={70}
+                    width={100}
+                    height={100}
                     className="h-auto w-auto"
                   />
                 </Link>
@@ -40,8 +40,8 @@ const FooterIfaSocila = () => {
                   <Image
                     src="/twitter-fill.png"
                     alt=" "
-                    width={70}
-                    height={70}
+                    width={100}
+                    height={100}
                     className="h-auto w-auto"
                   />
                 </Link>
@@ -50,8 +50,8 @@ const FooterIfaSocila = () => {
                   <Image
                     src="/youtube-fill.png"
                     alt=" "
-                    width={70}
-                    height={70}
+                    width={100}
+                    height={100}
                     className="h-auto w-auto"
                   />
                 </Link>

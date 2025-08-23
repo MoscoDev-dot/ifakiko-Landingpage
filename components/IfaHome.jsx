@@ -82,7 +82,7 @@ const IfaHome = () => {
               alt="k"
               width={150}
               height={50}
-              className="lg:h-auto h-[30px] w-[60px] mx-auto lg:w-auto"
+              className="lg:h-auto h-[30px] w-[120px] mx-auto lg:w-auto"
             />
           </div>
         </motion.div>

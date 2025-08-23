@@ -18,7 +18,7 @@ const IfaConnect = () => {
             </motion.p>
             <motion.p initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
               whileInView={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.5, delay: 0.3, ease: "easeInOut" }} className="font-extrabold text-white text-[28px] md:text-[56px] leading-[77px] ">
+              transition={{ duration: 0.5, delay: 0.3, ease: "easeInOut" }} className="font-extrabold text-white text-[28px] md:text-[56px] md:leading-[77px] ">
               Experience the best knowledge <br /> on oral traditions of Ifa and
               Iba.
             </motion.p>
