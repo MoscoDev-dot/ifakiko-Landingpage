@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { Container } from "@mui/material";
 import Image from "next/image";
 import Link from "next/link";
@@ -11,14 +11,22 @@ const IfaConnect = () => {
       <Container maxWidth={false}>
         <div className="text-center pb-10">
           <div>
-            <motion.p initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
+            <motion.p
+              initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
               whileInView={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.5, delay: 0.2, ease: "easeInOut" }} className="uppercase font-bold text-[15px] md:text-[20px] leading-[100%] pt-15 pb-5 tracking-[3px]  text-white ">
+              transition={{ duration: 0.5, delay: 0.2, ease: "easeInOut" }}
+              viewport={{ once: true }}
+              className="uppercase font-bold text-[15px] md:text-[20px] leading-[100%] pt-15 pb-5 tracking-[3px]  text-white "
+            >
               Download Now
             </motion.p>
-            <motion.p initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
+            <motion.p
+              initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
               whileInView={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.5, delay: 0.3, ease: "easeInOut" }} className="font-extrabold text-white text-[28px] md:text-[56px] md:leading-[77px] ">
+              transition={{ duration: 0.5, delay: 0.3, ease: "easeInOut" }}
+              viewport={{ once: true }}
+              className="font-extrabold text-white text-[28px] md:text-[56px] md:leading-[77px] "
+            >
               Experience the best knowledge <br /> on oral traditions of Ifa and
               Iba.
             </motion.p>

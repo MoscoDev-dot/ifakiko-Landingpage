@@ -20,6 +20,7 @@ const MobilAppFeatures = () => {
               initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.3, ease: "easeInOut" }}
+              viewport={{ once: true }}
               className="bg-[#77715F] rounded-[5vh] "
             >
               <p className="text-center font-semibold pt-8  text-[25px] uppercase text-[#74B117]">
@@ -39,6 +40,7 @@ const MobilAppFeatures = () => {
               initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.5, ease: "easeInOut" }}
+              viewport={{ once: true }}
               className="bg-[#74B117]  rounded-[5vh] "
             >
               <p className="text-center font-semibold pt-8 text-[25px] uppercase text-[#251804]">
@@ -58,6 +60,7 @@ const MobilAppFeatures = () => {
               initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.6, ease: "easeInOut" }}
+              viewport={{ once: true }}
               className="bg-[#FFFFFF] rounded-[5vh] "
             >
               <p className="text-center font-semibold pt-8 text-[25px] uppercase text-[#251804]">
@@ -83,6 +86,7 @@ const MobilAppFeatures = () => {
               initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.7, ease: "easeInOut" }}
+              viewport={{ once: true }}
               className="bg-[#B8893D] rounded-[5vh] "
             >
               <p className="text-center font-semibold pt-8 text-[25px] uppercase text-[#251804]">

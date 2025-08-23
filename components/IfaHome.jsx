@@ -1,11 +1,10 @@
-"use client"
+"use client";
 import { Container } from "@mui/material";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { Josefin_Sans } from "next/font/google";
 import { motion } from "motion/react";
-
 
 //adding custom font
 const josefinSans = Josefin_Sans({
@@ -20,11 +19,12 @@ const IfaHome = () => {
         {/* 1st col */}
 
         <motion.div
-        initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
-      whileInView={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.5, delay: 0.2, ease: 'easeInOut' }}
-        
-        className="relative learning-ifa ">
+          initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.2, ease: "easeInOut" }}
+          viewport={{ once: true }}
+          className="relative learning-ifa "
+        >
           <div className="border-[10px] absolute  border-[#74B117] lg:h-[89vh] h-[46vh] lg:w-[80vh] w-[40vh] "></div>
 
           <div className="border-2 bg-white absolute lg:left-[-30px] left-[-10px] top-2 border-[#74B117] lg:w-[80vh] w-[38vh] lg:p-8 p-3 lg:h-[80vh] h-[38vh] mt-5 ">
@@ -63,10 +63,12 @@ const IfaHome = () => {
 
         {/* 2nd col */}
         <motion.div
-        initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
-      whileInView={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.5, delay: 0.4, ease: 'easeInOut' }}
-        className="relative mt-10 lg:mt-0 flex items-center justify-center top-120 md:top-45  lg:top-75">
+          initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.4, ease: "easeInOut" }}
+          viewport={{ once: true }}
+          className="relative mt-10 lg:mt-0 flex items-center justify-center top-120 md:top-45  lg:top-75"
+        >
           <div className="absolute">
             <Image
               src="/deupload-feature-mobile 3.png"
@@ -87,9 +89,7 @@ const IfaHome = () => {
           </div>
         </motion.div>
       </div>
-      <div>
-        
-      </div>
+      <div></div>
     </Container>
   );
 };

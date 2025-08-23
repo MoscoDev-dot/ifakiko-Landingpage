@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { Container } from "@mui/material";
 import Image from "next/image";
 import React from "react";
@@ -11,11 +11,12 @@ const JoinIfa = () => {
         <div>
           <div className="grid md:grid-cols-2 mx-10 py-20 grid-cols-1 gap-4">
             <motion.div
-            transition={{ duration: 0.5, delay: 0.2, ease: 'easeInOut' }}
-            initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
-        whileInView={{ y: 0, opacity: 1 }}
-
-            className="">
+              transition={{ duration: 0.5, delay: 0.2, ease: "easeInOut" }}
+              initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              className=""
+            >
               <p className="font-bold leading-tight text-[#251804] text-[40px]">
                 Preserve, Learn, and Honor the Legacy of{" "}
                 <span className="text-[#74B117]">Ifa</span>
@@ -29,9 +30,13 @@ const JoinIfa = () => {
                 Join as a Priest Contributor
               </button>
             </motion.div>
-            <motion.div  transition={{ duration: 0.5, delay: 0.4, ease: 'easeInOut' }}
-            initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
-        whileInView={{ y: 0, opacity: 1 }} className="flex items-center justify-center">
+            <motion.div
+              transition={{ duration: 0.5, delay: 0.4, ease: "easeInOut" }}
+              initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              className="flex items-center justify-center"
+            >
               <Image
                 src="/Illustration.png"
                 alt="illustration"

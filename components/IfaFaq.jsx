@@ -19,9 +19,12 @@ const IfaFaq = () => {
             </div>
           </div>
 
-          <motion.div  initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
-              whileInView={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.5, delay: 0.3, ease: "easeInOut" }} >
+          <motion.div
+            initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.3, ease: "easeInOut" }}
+            viewport={{ once: true }}
+          >
             {" "}
             <IfaAccordion
               text1={"01"}
@@ -32,9 +35,12 @@ const IfaFaq = () => {
               }
             />
           </motion.div>
-          <motion.div  initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
-              whileInView={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.5, delay: 0.4, ease: "easeInOut" }} >
+          <motion.div
+            initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.4, ease: "easeInOut" }}
+            viewport={{ once: true }}
+          >
             {" "}
             <IfaAccordion
               text1={"02"}
@@ -44,10 +50,13 @@ const IfaFaq = () => {
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget. "
               }
             />
-          </motion.div  >
-          <motion.div  initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
-              whileInView={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.5, delay: 0.5, ease: "easeInOut" }} >
+          </motion.div>
+          <motion.div
+            initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.5, ease: "easeInOut" }}
+            viewport={{ once: true }}
+          >
             {" "}
             <IfaAccordion
               text1={"03"}
@@ -58,9 +67,12 @@ const IfaFaq = () => {
               }
             />
           </motion.div>
-          <motion.div  initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
-              whileInView={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.5, delay: 0.6, ease: "easeInOut" }} >
+          <motion.div
+            initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.6, ease: "easeInOut" }}
+            viewport={{ once: true }}
+          >
             {" "}
             <IfaAccordion
               text1={"04"}
@@ -71,9 +83,12 @@ const IfaFaq = () => {
               }
             />
           </motion.div>
-          <motion.div  initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
-              whileInView={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.5, delay: 0.7, ease: "easeInOut" }} >
+          <motion.div
+            initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.7, ease: "easeInOut" }}
+            viewport={{ once: true }}
+          >
             {" "}
             <IfaAccordion
               text1={"05"}
