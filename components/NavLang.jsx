@@ -20,7 +20,7 @@ const NavLang = () => {
   return (
     <div className="relative">
       <button
-        className="py-3 px-10 rounded-lg border-2 font-semibold text-[#74B117] flex items-center gap-2"
+        className="py-3 px-10 rounded-lg border-2 border-[#74B117] font-semibold text-[#74B117] flex items-center gap-2"
         onClick={() => setOpen(!open)}
       >
         <LanguageIcon />

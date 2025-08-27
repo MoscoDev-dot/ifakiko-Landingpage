@@ -9,7 +9,7 @@ import AppUsage from "@/components/AppUsage";
 import IfaFaq from "@/components/IfaFaq";
 import IfaConnect from "@/components/IfaConnect";
 import Footer from "@/components/Footer";
-
+import { SmoothCursor } from "@/components/ui/smooth-cursor";
 
 
 export default function Home() {
@@ -26,7 +26,7 @@ export default function Home() {
    <IfaConnect/>
   
    <Footer/>
-   
+  <div className="md:block hidden"> <SmoothCursor/></div>
    </div>
   );
 }

@@ -5,7 +5,7 @@ const NavButton = () => {
   return (
     <div>
       <Link href="#">
-        <button className="py-3 px-12 rounded-lg border-2 font-semibold text-[#74B117] ">
+        <button className="py-3 px-12 cursor-pointer rounded-lg border-2 border-[#74B117] font-semibold text-[#74B117] ">
           Sign up
         </button>
       </Link>
