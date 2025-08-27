@@ -13,13 +13,13 @@ const IfaAccordion = ({ text1, text2, text3, text4 }) => {
         sx={{
           backgroundColor: "#F3F3F3",
           boxShadow: "none",
-         
+
           border: "5px",
           borderRadius: "40px",
           "&.MuiPaper-root": {
             borderRadius: "40px",
-             border: "1px solid #000000",
-             borderBottom: "8px solid"
+            border: "1px solid #000000",
+            borderBottom: "8px solid",
           },
         }}
       >

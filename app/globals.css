@@ -8,11 +8,13 @@
         
 }
 
-@media (min-width: 375px) and (max-width: 425px) {
+/* @media (min-width: 375px) and (max-width: 425px) {
 .learning-ifa{
-    margin-left: 40px;
+    width:fit-content !important;
+    display: flex !important;
+    justify-content: center !important;
 }
-}
+} */
 
  @keyframes marquee {
           0% { transform: translateX(100%); }
@@ -26,5 +28,20 @@
   .toggle-icon {
     width: 40px !important;
     margin-left: 3px !important;
+  }
+}
+ /*animatonnnn  */
+
+.scroll-text {
+  display: inline-flex;
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
   }
 }

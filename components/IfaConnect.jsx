@@ -61,7 +61,7 @@ const IfaConnect = () => {
                       className="h-auto w-auto"
                     />
                   </div>
-                  <div className="md:mt-2">
+                  <div className="mt-2">
                     <p className="text-[#191970] font-medium text-[12px] leading-[100%] ">
                       Download on the <br />{" "}
                       <span className="md:text-[20px] text-[13px] font-semibold ">
@@ -85,7 +85,7 @@ const IfaConnect = () => {
                       className="h-auto w-auto"
                     />
                   </div>
-                  <div className="md:mt-2">
+                  <div className="mt-2">
                     <p className="text-[#FFFFFF] font-medium text-[12px] leading-[100%] ">
                       Download on the <br />{" "}
                       <span className="md:text-[20px] text-[13px] font-semibold ">

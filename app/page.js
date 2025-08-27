@@ -17,17 +17,14 @@ export default function Home() {
    <div className="">
     <NavBar/>
    <IfaHome />
-   <MovingTexts text1={'verse interpretation'} text2={"orisa studies"} />
+   <MovingTexts text2={'verse interpretation'} text1={"orisa studies"} />
    <AboutIfakiko/>
    <MobilAppFeatures/>
    <JoinIfa/>
    <AppUsage/>
    <IfaFaq/>
    <IfaConnect/>
-   <div className="py-10">
-    <MovingTexts text1={'orisa studies'} text2={'verse interpretation'} />
-   <MovingTexts text1={'verse interpretation'} text2={'orisa studies'} />
-   </div>
+  
    <Footer/>
    
    </div>

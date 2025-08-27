@@ -10,7 +10,7 @@ const MobilAppFeatures = () => {
     <div id="app-1" className="bg-[#F1F7E8] px-5  lg:px-20">
       <Container maxWidth={false}>
         <div>
-          <p className="font-bold text-[40px] py-10 text-[#000000] ">
+          <p className="font-bold md:text-[40px] text-[20px]  py-10 text-[#000000] ">
             Mobile App{" "}
             <span className="italic font-[800] text-[#74B117] ">Features</span>
           </p>
@@ -23,15 +23,13 @@ const MobilAppFeatures = () => {
               viewport={{ once: true }}
               className="bg-[#77715F] rounded-[5vh] "
             >
-              <p className="text-center font-semibold pt-8  text-[25px] uppercase text-[#74B117]">
+              <p className="text-center font-semibold pt-8  md:text-[25px] text-[15px] uppercase text-[#74B117]">
                 Priest Profiles & <br /> Community Hub
               </p>
               <MobileComponent
                 image={"/deupload-file-sharing 2 (1).png"}
-                text3={
-                  " Users can follow verified Babaláwo, view their teachings,"
-                }
-                text4={"and ask spiritually questions."}
+                text3={" Users can follow verified Babaláwo, "}
+                text4={" view their teachings,and ask spiritually questions."}
               />
             </motion.div>
 
@@ -43,15 +41,13 @@ const MobilAppFeatures = () => {
               viewport={{ once: true }}
               className="bg-[#74B117]  rounded-[5vh] "
             >
-              <p className="text-center font-semibold pt-8 text-[25px] uppercase text-[#251804]">
+              <p className="text-center font-semibold pt-8 md:text-[25px] text-[15px] uppercase text-[#251804]">
                 Lineage Tracing & <br /> Ìbà system
               </p>
               <MobileComponent
                 image={"/deupload-file-sharing 3 (1).png"}
-                text3={
-                  " Each verse is spiritually anchored. Users can view the "
-                }
-                text4={"originating lineage of verses."}
+                text3={" Each verse is spiritually anchored.  "}
+                text4={" Users can view the originating lineage of verses."}
               />
             </motion.div>
 
@@ -63,11 +59,11 @@ const MobilAppFeatures = () => {
               viewport={{ once: true }}
               className="bg-[#FFFFFF] rounded-[5vh] "
             >
-              <p className="text-center font-semibold pt-8 text-[25px] uppercase text-[#251804]">
+              <p className="text-center font-semibold pt-8 md:text-[25px] text-[15px] uppercase text-[#251804]">
                 Lineage Tracing & <br /> Ìbà system
               </p>
-              <p className="text-[16px] text-center font-regular text-[#000000] py-5 ">
-                Each verse is spiritually anchored. Users can view the <br />{" "}
+              <p className="md:text-[16px] text-[13px] text-center font-regular text-[#000000] py-5 ">
+                Each verse is spiritually anchored. <br /> Users can view the
                 originating lineage of verses.
               </p>
               <div className="flex justify-center">
@@ -89,15 +85,13 @@ const MobilAppFeatures = () => {
               viewport={{ once: true }}
               className="bg-[#B8893D] rounded-[5vh] "
             >
-              <p className="text-center font-semibold pt-8 text-[25px] uppercase text-[#251804]">
+              <p className="text-center font-semibold pt-8 md:text-[25px] text-[15px] uppercase text-[#251804]">
                 Priest Profiles & <br /> community hub
               </p>
               <MobileComponent
                 image={"/deupload-file-sharing 3 (1).png"}
-                text3={
-                  " Users can follow verified Babaláwo, view their teachings,"
-                }
-                text4={"and ask spiritually questions."}
+                text3={" Users can follow verified Babaláwo, "}
+                text4={"view their teachings,and ask spiritually questions."}
               />
             </motion.div>
           </div>

@@ -10,10 +10,10 @@ const IfaFaq = () => {
       <Container maxWidth={false}>
         <div className="md:mx-15 mb-20 ">
           <div className="flex flex-col md:flex-row gap-5 my-20">
-            <div className="font-medium leading-[100%] text[#000000] bg-[#B9FF66] text-[40px]">
+            <div className="font-medium leading-[100%] px-2 w-fit text[#000000] bg-[#B9FF66] text-[20px] md:text-[40px]">
               Our Working Process{" "}
             </div>
-            <div className="font-regular text-[20px] leading-[100%] ">
+            <div className="font-regular md:text-[20px] text-[13px] leading-[100%] ">
               Your questions answered with clarity, care, and <br /> cultural
               respect.
             </div>

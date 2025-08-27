@@ -11,12 +11,17 @@ const AboutCards = ({ image, text1, text2, text3 }) => {
           src={image}
           alt="nodes"
           width={60}
-          height={0}
-          className="rounded-full p-4 hover:bg-[#74B117]  bg-[#251804]"
+          height={20}
+          className="rounded-full md:p-4 p-2 hover:bg-[#74B117] w-[30px] md:w-[50px] md:h-[50px] h-[30px]  bg-[#251804]"
         />
 
-        <p className="font-[700] text-[#FFFFFF] py-3 text-[25px] ">{text1}</p>
-        <p className=" font-[400] text-[#FFFFFF] text-[16px] "> {text2}</p>
+        <p className="font-[700] text-[#FFFFFF] py-3 text-[15px] md:text-[25px] ">
+          {text1}
+        </p>
+        <p className=" font-[400] text-[#FFFFFF] text-[12px] md:text-[16px] ">
+          {" "}
+          {text2}
+        </p>
         <Link className=" hover:underline text-[#FFFFFF]" href="#">
           <p className="pt-7">
             {text3}{" "}

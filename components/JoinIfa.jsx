@@ -11,13 +11,13 @@ const JoinIfa = () => {
         <div>
           <div className="grid md:grid-cols-2 mx-10 py-20 grid-cols-1 gap-4">
             <motion.div
-              transition={{ duration: 0.5, delay: 0.2, ease: "easeInOut" }}
+              transition={{ duration: 0.5, delay: 0.5, ease: "easeInOut" }}
               initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
               whileInView={{ y: 0, opacity: 1 }}
               viewport={{ once: true }}
               className=""
             >
-              <p className="font-bold leading-tight text-[#251804] text-[40px]">
+              <p className="font-bold leading-tight text-[#251804] text-[20px] md:text-[40px]">
                 Preserve, Learn, and Honor the Legacy of{" "}
                 <span className="text-[#74B117]">Ifa</span>
               </p>
@@ -26,12 +26,12 @@ const JoinIfa = () => {
                 digital preservation. Contact us today to learn more about what
                 we do .
               </p>
-              <button className="bg-[#5CD425] text-white px-6 font-regular text-[20px] leading-[28px] py-2 rounded-[2vh] hover:bg-[#251804]">
+              <button className="bg-[#5CD425] text-white md:px-6 px-2 font-regular text-[15px] md:text-[20px] leading-[28px] py-2 rounded-[2vh] hover:bg-[#251804]">
                 Join as a Priest Contributor
               </button>
             </motion.div>
             <motion.div
-              transition={{ duration: 0.5, delay: 0.4, ease: "easeInOut" }}
+              transition={{ duration: 0.5, delay: 0.7, ease: "easeInOut" }}
               initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
               whileInView={{ y: 0, opacity: 1 }}
               viewport={{ once: true }}

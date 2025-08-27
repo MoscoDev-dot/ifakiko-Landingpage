@@ -11,18 +11,18 @@ const AboutIfakiko = () => {
         <motion.p
           initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
           whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.3 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
           viewport={{ once: true }}
-          className="text-center font-[700] text-[45px] tracking-[5px] text-[#10111A]"
+          className="text-center font-[700]  md:text-[45px] text-[20px] tracking-[5px] text-[#10111A]"
         >
           ABOUT Ifá Kiko
         </motion.p>
         <motion.p
           initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
           whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.5 }}
+          transition={{ duration: 0.5, delay: 0.6 }}
           viewport={{ once: true }}
-          className="text-center font-[400] text-[#251804] text-[18px] "
+          className="text-center font-[400] text-[#251804] mt-5 m:mt-0 text-[15px] md:text-[18px] "
         >
           IFA Kiko is a sacred digital space created to preserve and teach the
           oral traditions of Ifa and Orisa in an <br /> ethical, secure, and

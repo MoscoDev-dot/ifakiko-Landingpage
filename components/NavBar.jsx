@@ -15,9 +15,9 @@ const NavBar = () => {
     <>
       <nav className="w-full  bg-white lg:px-10 ">
         <motion.div
-          initial={{ y: -25, opacity: 0 }}   //ANNIMATIONS
+          initial={{ y: -25, opacity: 0 }} //ANNIMATIONS
           animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.6, ease: "easeOut" }}
+          transition={{ duration: 0.6, delay: 0.5, ease: "easeOut" }}
           viewport={{ once: true }}
           className="flex items-center justify-between px-6 py-4"
         >

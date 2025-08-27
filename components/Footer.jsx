@@ -1,10 +1,11 @@
+"use client";
 import { Container } from "@mui/material";
 import React from "react";
-
 import FooterIfaSocila from "./FooterIfaSocila";
 import FooteQuickLink from "./FooteQuickLink";
 import FooteNewsLetter from "./FooteNewsLetter";
 import Image from "next/image";
+import { motion } from "motion/react";
 
 const Footer = () => {
   return (
@@ -12,18 +13,39 @@ const Footer = () => {
       <Container maxWidth={false}>
         <div>
           <div className="grid md:grid-cols-3 lg:mx-15 mx-5 md:mx-2 pt-20  grid-cols-1 md:gap-2 gap-10 lg:gap-4">
-            <div>
+            <motion.div
+              initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.5, ease: "easeInOut" }}
+              viewport={{ once: true }}
+            >
               <FooterIfaSocila />
-            </div>
-            <div>
+            </motion.div>
+            <motion.div
+              initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.7, ease: "easeInOut" }}
+              viewport={{ once: true }}
+            >
               <FooteQuickLink />
-            </div>
-            <div>
+            </motion.div>
+            <motion.div
+              initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.8, ease: "easeInOut" }}
+              viewport={{ once: true }}
+            >
               <FooteNewsLetter />
-            </div>
+            </motion.div>
           </div>
           <hr className=" lg:me-60 lg:ms-20 md:mx-10 border-t-1  my-5 border-white" />
-          <div className="flex justify-center py-4 gap-5 align-center">
+          <motion.div
+            initial={{ y: 20, opacity: 0 }} // ANNIMATIONS
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.9, ease: "easeInOut" }}
+            viewport={{ once: true }}
+            className="flex justify-center py-4 gap-5 align-center"
+          >
             <div>
               <Image
                 src="/copyright-line.png"
@@ -36,7 +58,7 @@ const Footer = () => {
             <div className="text-[16px]  leading-[24px] text-white ">
               Copyright 2025 IFAKIKO. All Right Reserved.
             </div>
-          </div>
+          </motion.div>
         </div>
       </Container>
     </div>
