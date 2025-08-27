@@ -69,7 +69,7 @@ const IfaHome = () => {
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.4, ease: "easeInOut" }}
           viewport={{ once: true }}
-          className="relative mb-10 md:mb-0 lg:mt-0 flex items-center justify-center top-120 md:top-45  lg:top-75"
+          className="relative mb-10 mt-15 md:mb-0 lg:mt-0 flex items-center justify-center top-120 md:top-45  lg:top-75"
         >
           <div className="absolute">
             <Image
